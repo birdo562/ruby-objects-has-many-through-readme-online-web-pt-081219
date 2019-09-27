@@ -2,7 +2,7 @@ class Customer
   @@all = []
   attr_accessor :name, :age
   def initalize(name, age)
-    @name= name
+    @name = name
     @age = age
     @@all << self
   end
